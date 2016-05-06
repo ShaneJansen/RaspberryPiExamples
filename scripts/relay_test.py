@@ -1,9 +1,14 @@
-#!/usr/bin/python
+'''
+Used for testing a series of relays by turning each on
+in sequential order and then turning each off in sequential
+order.
+'''
+
 import RPi.GPIO as GPIO
 import time
 
-CONST_SLEEP = 2
-CONST_PINS = [4, 17, 2, 3, 20, 21]
+CONST_SLEEP = 0.5
+CONST_PINS = [2, 3, 4, 17, 27, 22, 10, 9]
 
 # Init
 GPIO.setmode(GPIO.BCM)

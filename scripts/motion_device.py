@@ -1,4 +1,10 @@
-#!/usr/bin/python
+'''
+Turns on or off a pin based on motion detection.
+If motion has not be detected for a period of time,
+the device will shut off.  A good use case would be
+a lamp that you want to stay on while you are in the room.
+'''
+
 import RPi.GPIO as GPIO
 import time
 

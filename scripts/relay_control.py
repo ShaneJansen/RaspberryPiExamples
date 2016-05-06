@@ -1,4 +1,8 @@
-#!/usr/bin/python
+'''
+Turns on or off relays via the terminal with
+"on" and "off" commands.
+'''
+
 import RPi.GPIO as GPIO
 import time
 

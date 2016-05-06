@@ -1,4 +1,11 @@
 <?php
+  /*
+    This is an example of how a script can be blocked from running
+    multiple times.  For example, if you have a web interface that
+    many people are using, a command should not be run twice if two
+    people click "run" at the same time.
+  */
+
   // Vars
   define('COMMAND', '/home/pi/Documents/examples/scripts/relay_test.py');
 
